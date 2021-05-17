@@ -81,4 +81,4 @@ jobs:
         run: ls -a && echo "pwd" && pwd
 
       - name: Deploy
-        run: gsutil cp -r public/* gs://${{ secrets.BUCKET }}
+        run: gsutil cp -r . gs://${{ secrets.BUCKET }}
