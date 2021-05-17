@@ -27,7 +27,7 @@ jobs:
         run: npm run format
         
       - name: Build
-        run: npm run build && echo "PWD $(pwd)" && ls -la
+        run: npm run build
       
       - name: Artifact
         uses: actions/upload-artifact@v2
@@ -76,6 +76,9 @@ jobs:
         uses: actions/download-artifact@v2
         with:
           name: public-dir
+          
+      - name: ls
+        run: ls -a && echo "pwd" && pwd
 
       - name: Deploy
         run: gsutil cp -r public/* gs://${{ secrets.BUCKET }}
