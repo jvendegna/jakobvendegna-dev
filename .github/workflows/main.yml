@@ -64,6 +64,7 @@ jobs:
     needs: build
     if: github.ref == 'refs/heads/main'
     steps:
+
       - name: Set up Cloud SDK
         uses: google-github-actions/setup-gcloud@master
         with:
@@ -71,8 +72,10 @@ jobs:
           service_account_key: ${{ secrets.GCS_STORAGE_CRED }}
           export_default_credentials: true
 
-      - name: Deploy
+      - name: Get Artifact
         uses: actions/download-artifact@v2
         with:
           name: public-dir
+
+      - name: Deploy
         run: gsutil cp -r public/* gs://${{ secrets.BUCKET }}
