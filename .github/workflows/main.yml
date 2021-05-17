@@ -26,15 +26,16 @@ jobs:
       - name: Format
         run: npm run format
         
-      - name: Build app
+      - name: Build
         run: npm run build && echo "PWD $(pwd)" && ls -la
       
-      - uses: actions/upload-artifact@v2
+      - name: Artifact
+        uses: actions/upload-artifact@v2
         with:
           name: public-dir
           path: public/
       
-            - name: version
+      - name: Version
         uses: paulhatch/semantic-version@v4.0.2
         with:
           # The prefix to use to identify tags
