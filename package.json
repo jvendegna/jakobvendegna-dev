@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "jakobvendegna-dev",
   "private": true,
-  "description": "A minimal blog template built with Gatsby",
+  "description": "My Personal DevOps Journey & Portfolio",
   "version": "0.1.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "author": "Jakob Vendegna (me@jakobvendegna.dev)",
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27",
@@ -45,9 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/jvendegna/jakobvendegna-dev"
   }
 }

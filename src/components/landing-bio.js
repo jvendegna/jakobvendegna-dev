@@ -38,11 +38,32 @@ const LandingBio = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          <p>
+            Why did we start "Save the Whales"? Because their health is directly
+            tied to the overall health of a system "Earth", if you're paying
+            attention and watching closely for signals. Beached and bloated?
+            There's a reason why.
+          </p>
+          <p>
+            I speak a little whale. These little Docker whales are absolutely
+            capable of providing those deep insights into the health of a given
+            system. Especially if that system is Kubernetes, or another
+            Container Orchestrator.
+          </p>
+          <p>
+            But they aren't just a thermometer. I developed this site in a
+            container. I used a container for my development environment. Linked
+            my IDE to the container. Developed this gatsbyjs site from within a
+            containerized environment. Fun thing is: You can too! If you develop
+            inside the same container you deploy... it works for everyone,
+            everywhere, always. Get at me.
+          </p>
+          <h4>Yeah, I got cheat codes to level up your team, fast.</h4>
         </Container>
       </OuterContainer>
     )}
