@@ -47,6 +47,6 @@ jobs:
           export_default_credentials: true
 
       - name: Use gcloud CLI
-        run: gsutil cp -r public/* gs://{{ secrets.BUCKET }}
+        run: gsutil cp -r public/* gs://${{ secrets.BUCKET }}
         
       
