@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ github_ci ]
   pull_request:
-    branches: [ main ]
+    branches: [ github_ci ]
 
   workflow_dispatch:
 
