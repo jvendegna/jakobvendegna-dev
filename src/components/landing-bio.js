@@ -43,25 +43,13 @@ const LandingBio = () => (
         <Container>
           <NameHeader>{data.site.siteMetadata.title}</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          <Description>{data.site.siteMetadata.description}</Description>
           <p>
-            Why did we start "Save the Whales"? Because their health is directly
-            tied to the overall health of a system "Earth", if you're paying
-            attention and watching closely for signals. Beached and bloated?
-            There's a reason why.
+            Feel free to snatch up my resume and get the ball rolling. Email me at me at jakobvendegna dot dev. LinkedIn messages will receive no response.
           </p>
           <p>
-            I speak a little whale. These little Docker whales are absolutely
-            capable of providing those deep insights into the health of a given
-            system. Especially if that system is Kubernetes, or another
-            Container Orchestrator.
-          </p>
-          <p>
-            But they aren't just a thermometer. I developed this site in a
-            container. I used a container for my development environment. Linked
-            my IDE to the container. Developed this gatsbyjs site from within a
-            containerized environment. Fun thing is: You can too! If you develop
-            inside the same container you deploy... it works for everyone,
-            everywhere, always. Get at me.
+            Platform engineering is the stuff you can't find on stackoverflow. There is no googling the right answer as to how to best host your particular platform of internal and external services. There is however, a right way to do it.
+            I utilize my critical thinking skills and vast experience coming from embedded hardware development, developing early automated PaaS hosting products (Automated WordPress hosting on shared servers), jumping into Kubernetes head first at the advent, and most recently using all these chops to provide CI/CD and Data Versioning to ML models centered around Optical Character Recognition and Relational Learning.
           </p>
           <h4>Yeah, I got cheat codes to level up your team, fast.</h4>
         </Container>

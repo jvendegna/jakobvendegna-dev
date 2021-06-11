@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Jakob Vendegna`,
-    subtitle: `Principal Platform Engineer, SRE, and MLOps Powerhouse`,
-    description: `A minimal blog starter built with Gatsbyjs. The needed Gatsby files are included.`,
+    subtitle: `Principal Platform Engineer, SRE, and Dev/SEC/ML/GitOps Powerhouse`,
+    description: `Taking the summer off, looking into new positions starting 9/1/2021`,
     author: `@jvendegna`,
   },
   plugins: [
