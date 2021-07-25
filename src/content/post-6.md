@@ -1,6 +1,6 @@
 ---
 title: "Python Packaging, Demystified"
-date: "2021-25-7"
+date: "2021-07-25"
 draft: false
 path: "/blog/python-packaging-demystified"
 ---
