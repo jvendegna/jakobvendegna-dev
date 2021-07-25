@@ -5,8 +5,6 @@ draft: false
 path: "/blog/python-packaging-demystified"
 ---
 
-# Python Packaging, Demystified
-
 This post covers and expands on a [comment I wrote](https://github.com/ParthJadhav/Tkinter-Designer/pull/84#issuecomment-885690771) on a pull request I was helping out with CI tasks. One task, package and release the python package to Pypi. I've run into packaging a time or two before, but the whole process seemed so offputting. There is no 'right' way to do it according to the talking heads on the internet, the python packaging authority, or any PEP. For such an opinonated language and community obsessed with doing everything pythonic, packaging is something the wider community seems to have just given up on solving canonically.
 
 ## Woe Is Everyone
