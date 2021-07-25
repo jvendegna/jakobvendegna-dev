@@ -48,10 +48,10 @@ const LandingBio = () => (
             Feel free to snatch up my resume and get the ball rolling. Email me at me at jakobvendegna dot dev. LinkedIn messages will receive no response.
           </p>
           <p>
-            Platform engineering is the stuff you can't find on stackoverflow. There is no googling the right answer as to how to best host your particular platform of internal and external services. There is however, a right way to do it.
-            I utilize my critical thinking skills and vast experience coming from embedded hardware development, developing early automated PaaS hosting products (Automated WordPress hosting on shared servers), jumping into Kubernetes head first at the advent, and most recently using all these chops to provide CI/CD and Data Versioning to ML models centered around Optical Character Recognition and Relational Learning.
+            Platform engineering is the practice of constantly iterating on the SDLC to facilitate faster and more reliable delivery of business value. Site Reliability Engineering is the practice of taking that delivered package and hosting it, reliably. Both require a fixation on eliminating toil. Most of the 'how?' you cannot find on stackoverflow. There is no googling the right answer as to how to best enable your team to deliver and reliably serve your particular platform of internal and external services. There is however, a right way to do it.
+            I utilize my critical thinking skills and vast experience coming from embedded hardware development, developing early automated PaaS hosting products (Automated WordPress hosting on shared servers, yeah it was as horrible as it sounds), jumping into Kubernetes head first at the advent, and most recently using all these chops to provide Continuous MLOps, including Data Versioning to model delivery teams centered around Optical Character Recognition and Relational Learning.
           </p>
-          <h4>Yeah, I got cheat codes to level up your team, fast.</h4>
+          <h4>I enable teams to rapidly and reliably deliver their best work.</h4>
         </Container>
       </OuterContainer>
     )}
