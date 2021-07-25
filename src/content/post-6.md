@@ -1,6 +1,6 @@
 ---
 title: "Python Packaging, Demystified"
-date: "2021-05-10"
+date: "2021-7-25"
 draft: false
 path: "/blog/python-packaging-demystified"
 ---
@@ -9,7 +9,7 @@ path: "/blog/python-packaging-demystified"
 
 This post covers and expands on a [comment I wrote](https://github.com/ParthJadhav/Tkinter-Designer/pull/84#issuecomment-885690771) on a pull request I was helping out with CI tasks. One task, package and release the python package to Pypi. I've run into packaging a time or two before, but the whole process seemed so offputting. There is no 'right' way to do it according to the talking heads on the internet, the python packaging authority, or any PEP. For such an opinonated language and community obsessed with doing everything pythonic, packaging is something the wider community seems to have just given up on solving canonically.
 
-## Woe
+## Woe Is Everyone
 
 So setup.cfg is completely static, as such using it to build packages is deterministic and fairly striaght forward if you know what you're doing and pay attention to the configuration details. Setup.py is dynamic and seems to be the preferred method of anyone who thinks they know a thing or two about packaging. But builds are not deterministic. Just to get started packaging you need to figure out what a wheel is, learn about setuptools, sign up for testpypi and get your api key, and finally learn some gnarly commands to get the wheel uploaded to the test pypi server. Everyone has a different opinion on how to approach it. Everyone has their own way that 'works for them'... But ask them to explain it and you'll likely be met with a blank stare.
 
