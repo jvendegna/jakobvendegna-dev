@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://jakobvendegna.dev">
+    <img alt="Jakob Vendegna's Logo" src="src/images/logo.png" width="100" />
   </a>
 </p>
 <h1 align="center">
