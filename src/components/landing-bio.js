@@ -45,7 +45,7 @@ const LandingBio = () => (
           <Description>{data.site.siteMetadata.subtitle}</Description>
           <Description>{data.site.siteMetadata.description}</Description>
           <p>
-            Feel free to snatch up my resume and get the ball rolling. Email me at me at jakobvendegna dot dev. LinkedIn messages will receive no response.
+            Feel free to download my resume and reach out to get the ball rolling. Email me at me at jakobvendegna dot dev. LinkedIn messages will receive no response.
           </p>
           <p>
             Platform engineering is the practice of constantly iterating on the SDLC to facilitate faster and more reliable delivery of business value. Site Reliability Engineering is the practice of taking that delivered package and hosting it, reliably. Both require a fixation on eliminating toil. The answer as to 'how?' will not likely be found on stackoverflow. There is no googling the right answer as to how to best enable your team to deliver and reliably serve your particular platform of internal and external services. There is however, a right way to do it.
