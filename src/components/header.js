@@ -79,8 +79,11 @@ const Header = ({ siteTitle }) => (
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
         <ExternalLink href="https://github.com/jvendegna">GitHub</ExternalLink>
-        <ExternalLink href="https://bit.ly/3iAvgoV">
+        <ExternalLink href="bit.ly/JakobVendegnaResume">
           Resume
+        </ExternalLink>
+        <ExternalLink href="https://www.linkedin.com/in/jakob-vendegna/">
+          LinkedIn
         </ExternalLink>
       </p>
     </Content>
