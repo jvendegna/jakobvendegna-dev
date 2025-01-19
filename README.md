@@ -1,8 +1,32 @@
 <p align="center">
   <a href="https://jakobvendegna.dev">
-    <img alt="Jakob Vendegna's Logo" src="src/images/logo.png" width="100" />
+    <img alt="Jakob Vendegna's Logo" src="static/logo.png" width="100" />
   </a>
 </p>
+
+# [jakobvendegna.dev](https://jakobvendegna.dev)
+
+It's a Hugo site using the Terminal theme. I am not a web developer. I do have style preferences, they lean towards getting to the point. I work in a terminal pretty much all day. My site reflects that.
+
+## Notes for future self:
+
+### Getting Started
+
+You can run `hugo server` from this directory (local) to start things up.
+The theme is a git submodule in the themes directory. Any CSS and favicon changes happen there.
+I customized the template (chose colors quickly, but they are based on the Pantone 2025 color of the year).
+
+Where does it run?: It's a static site, let's slap it in an s3 bucket and call it a day.
+How is it built and delivered to said bucket? TBD but probably just a github action. See guiding principles.
+
+### Guiding Principles
+- Be mindful about the content you create.
+- Keep fluff and images to a minimum. This is a blog. Get to the point
+- Keep it simple, in all things. Simple designs are usually the most reliable. Simple messages are heard widely.
+
+
+## Archived in 2025:
+
 <h1 align="center">
   Jakob Vendegna's dev blog. Created with Gatsby julia-preview template.
 </h1>
