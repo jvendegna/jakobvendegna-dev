@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://jakobvendegna.dev/'
 languageCode = 'en-us'
-title = "Jakob Does"
+title = "Jakob Vendegna"
 theme = 'ananke'
 
 sectionPagesMenu = "main"
