@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://jakobvendegna.dev">
-    <img alt="Jakob Vendegna's Logo" src="static/images/logo.png" width="100" />
+    <img alt="Jakob Vendegna's Logo" src="static/logo.png" width="100" />
   </a>
 </p>
 
