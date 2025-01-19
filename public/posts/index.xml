@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jakob Does</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content on Jakob Does</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2025 10:36:12 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>This Website</title>
+      <link>http://localhost:1313/posts/this-website/</link>
+      <pubDate>Sun, 12 Jan 2025 10:36:12 -0500</pubDate>
+      <guid>http://localhost:1313/posts/this-website/</guid>
+      <description>&lt;p&gt;Okay, so I&amp;rsquo;m trying to learn project management this year in an effort to be just a little better at organizing and driving my team&amp;rsquo;s initiatives forward. And I learn best by doing. So this year I&amp;rsquo;m doing a series of projects&lt;/p&gt;&#xA;&lt;p&gt;The project I decided to start with is the website you&amp;rsquo;re looking at right now. I&amp;rsquo;ve been comfortably employed for a few years now, maybe a little too comfortable. I&amp;rsquo;ll admit the company I work for truly does respect and take care of their employees. But layoffs happen. I have not been affected by this in 3 years and after a string of about 4 years of getting laid off approximately every 6 months, I just decided out of caution that I should spruce up my old dusty website. It&amp;rsquo;s a simple project that will help me cross something off my list and contribute to my project management project.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Happy New Year</title>
+      <link>http://localhost:1313/posts/happy-new-year/</link>
+      <pubDate>Sun, 12 Jan 2025 10:35:58 -0500</pubDate>
+      <guid>http://localhost:1313/posts/happy-new-year/</guid>
+      <description>&lt;h1 id=&#34;new-year-new-projects&#34;&gt;New Year, New Projects&lt;/h1&gt;&#xA;&lt;p&gt;I&amp;rsquo;m ringing in 2025 with a pretty large goal. I plan on creating a framework for managing projects at work. I am often asked to lead initiatives on my team. My professional goal this year is to learn more skills related to project management. The point is to lead these initiatives more effectively. I plan to achieve this by managing multiple projects of my own outside of work. This will allow me more freedom to explore approaches, learning how different approaches to different projects might be necessary, and creating a generalized framework of tools and templates I can use at work to guide these initiatives from inception to fruition.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
